@@ -1,0 +1,252 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .clear {
+        overflow: hidden;
+    }
+    /* ======================================== */
+    
+    .fullpage {
+        width: 100%;
+        height: 720px;
+        background-color: #407764;
+    }
+    
+    .text {
+        width: 300px;
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .text h2 {
+        padding-top: 50px;
+    }
+    
+    .topimg {
+        width: 200px;
+        float: left;
+    }
+    
+    .text p {
+        margin-bottom: 20px;
+    }
+    
+    .template {
+        width: 890px;
+        height: 550px;
+        background-color: #F2D3AB;
+        margin: 0 auto;
+        box-shadow: 0 5px 11px #0e0d0b;
+    }
+    
+    .header {
+        height: 90px;
+        padding-bottom: 20px;
+    }
+    
+    .logo {
+        width: 85px;
+        float: left;
+        margin: 35px 0 0 -135px;
+        z-index: 1;
+        position: absolute;
+    }
+    
+    .logo img {
+        width: 85px;
+        z-index: 1;
+    }
+    
+    .pic-up {
+        margin-left: 115px;
+        width: 150px;
+        float: left;
+    }
+    
+    .pic-up img {
+        width: 130px;
+    }
+    
+    .manue {
+        float: right;
+        width: 385px;
+        margin-right: 40px;
+        margin-top: 45px;
+    }
+    
+    .manue ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    .manue ul li {
+        display: flex;
+        list-style: none;
+        margin-left: 5px;
+    }
+    
+    .manue ul li a {
+        font-size: 16px;
+        text-decoration: none;
+        text-align: center;
+        padding: 0px 10px;
+        color: #3F7866;
+        font-weight: bold;
+    }
+    
+    .active,
+    .manue ul li:hover {
+        border-bottom: 5px solid #3F7866;
+    }
+    
+    .main-body {
+        margin-left: 0;
+    }
+    
+    .body-left {
+        width: 470px;
+    }
+    
+    .left1 {
+        margin-left: -194px;
+        position: absolute;
+    }
+    
+    .left1 img {
+        width: 68px;
+        margin-top: 130px;
+        float: left;
+    }
+    
+    .image-blank {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        float: left;
+        background: #E4C98F;
+        margin-left: 0px;
+    }
+    
+    .main-pic {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        float: left;
+        background-image: url('../images/4228920.png');
+        z-index: 1;
+        margin-left: -306px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    
+    .main-pic img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+    
+    .body-riht {
+        float: right;
+        width: 300px;
+        margin-right: 145px;
+        margin-top: 70px;
+    }
+    
+    .body-riht h2 {
+        color: #407764;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 39px;
+        text-align: right;
+        padding-bottom: 20px;
+    }
+    
+    .body-riht p {
+        text-align: right;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    button {
+        text-align: right;
+        background-color: #407764;
+        padding: 9px 17px;
+        color: white;
+        border-radius: 15px;
+        border: teal;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: rgb(207, 141, 207);
+        color: teal;
+    }
+    
+    .icon i {
+        font-size: 25px;
+        color: #407764;
+        padding: 6px 8px;
+        border: 1px solid teal;
+        border-radius: 50%;
+        color: white;
+        background: teal;
+    }
+    
+    p .f-book a i {
+        padding: 6px 12px;
+    }
+    
+    .icon i:hover {
+        color: white;
+    }
+    
+    .img-rightmiddle {
+        float: right;
+        height: 200px;
+        position: absolute;
+        width: 223px;
+        margin-top: -276px;
+        margin-left: 221px;
+    }
+    
+    .footer-section {
+        height: 104px;
+    }
+    
+    .desin-leftdown img {
+        width: 200px;
+        float: left;
+        margin-top: 0px;
+    }
+    
+    .dis-middle {
+        width: 60px;
+        /* justify-content: center; */
+        margin-top: 22px;
+        margin-left: 410px;
+    }
+    
+    .dis-middle img {
+        float: left;
+        width: 60px;
+        height: 60px;
+        margin-top: -7px;
+    }
+    
+    .des-rightcorner {
+        margin-top: -56px;
+    }
+    
+    .des-rightcorner img {
+        float: right;
+        width: 100px;
+    }
